@@ -1,5 +1,7 @@
 ## Dev Diary
 
+I built a code submission app at [https://musicman.now.sh/](https://musicman.now.sh/).
+
 ### Scaffold project
 
 I decided to keep it real simple and use vanilla JS with script imports. No build system and I can focus on the core concepts. So I went with the following core libraries.
@@ -69,3 +71,4 @@ I then notice there is no indicator for "no results".  I add that.
 I then notice there are no loading indicators but I don't have time to add them and have worked on this a bit too long already.  So deploy to now.sh and test it on a real iPhone.
 
 
+[https://musicman.now.sh/](https://musicman.now.sh/)
