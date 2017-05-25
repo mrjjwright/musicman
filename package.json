@@ -1,0 +1,16 @@
+{
+  "name": "musicman",
+  "version": "0.0.1",
+  "devDependencies": {
+    "serve": "^5.1.5"
+  },
+  "scripts": {
+    "start": "serve ./",
+    "test": "jest"
+  },
+  "jest": {
+    "testMatch": [
+      "**/tests/*.(ts|tsx|js)"
+    ]
+  }
+}

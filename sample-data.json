@@ -1,0 +1,155 @@
+{
+    "artists": {
+        "href": "https://api.spotify.com/v1/search?query=Barry+Manilow&type=artist&offset=0&limit=20",
+        "items": [
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/3alW3LYQS8K29z8C8NSLIX"
+                },
+                "followers": {
+                    "href": null,
+                    "total": 113085
+                },
+                "genres": [
+                    "adult standards",
+                    "brill building pop",
+                    "bubblegum pop",
+                    "christmas",
+                    "disco",
+                    "mellow gold",
+                    "quiet storm",
+                    "soft rock"
+                ],
+                "href": "https://api.spotify.com/v1/artists/3alW3LYQS8K29z8C8NSLIX",
+                "id": "3alW3LYQS8K29z8C8NSLIX",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/9d17ad848f8ca2d5fe631828033985a54caf314b",
+                        "width": 640
+                    },
+                    {
+                        "height": 320,
+                        "url": "https://i.scdn.co/image/8af810d507259571d5cdfeb5ee30f00c6c755b13",
+                        "width": 320
+                    },
+                    {
+                        "height": 160,
+                        "url": "https://i.scdn.co/image/17f9a1ef980e62fbf9ac2a6e68e77e527e5d14b3",
+                        "width": 160
+                    }
+                ],
+                "name": "Barry Manilow",
+                "popularity": 61,
+                "type": "artist",
+                "uri": "spotify:artist:3alW3LYQS8K29z8C8NSLIX"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/2ufhOop1fVsTaJ7e7pOtGH"
+                },
+                "followers": {
+                    "href": null,
+                    "total": 93
+                },
+                "genres": [],
+                "href": "https://api.spotify.com/v1/artists/2ufhOop1fVsTaJ7e7pOtGH",
+                "id": "2ufhOop1fVsTaJ7e7pOtGH",
+                "images": [],
+                "name": "Barry Manilow, Marty Panzer",
+                "popularity": 0,
+                "type": "artist",
+                "uri": "spotify:artist:2ufhOop1fVsTaJ7e7pOtGH"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/2CKcXxky4Oqc8VPYIhwi5Z"
+                },
+                "followers": {
+                    "href": null,
+                    "total": 15
+                },
+                "genres": [],
+                "href": "https://api.spotify.com/v1/artists/2CKcXxky4Oqc8VPYIhwi5Z",
+                "id": "2CKcXxky4Oqc8VPYIhwi5Z",
+                "images": [],
+                "name": "Manilow Barry",
+                "popularity": 0,
+                "type": "artist",
+                "uri": "spotify:artist:2CKcXxky4Oqc8VPYIhwi5Z"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/4lVTotWqiVhNrKg0IdQ5Kl"
+                },
+                "followers": {
+                    "href": null,
+                    "total": 10
+                },
+                "genres": [],
+                "href": "https://api.spotify.com/v1/artists/4lVTotWqiVhNrKg0IdQ5Kl",
+                "id": "4lVTotWqiVhNrKg0IdQ5Kl",
+                "images": [],
+                "name": "Karaoke - Barry Manilow",
+                "popularity": 0,
+                "type": "artist",
+                "uri": "spotify:artist:4lVTotWqiVhNrKg0IdQ5Kl"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/3Z6ziU0kL8GUhh73FNvOSm"
+                },
+                "followers": {
+                    "href": null,
+                    "total": 10
+                },
+                "genres": [],
+                "href": "https://api.spotify.com/v1/artists/3Z6ziU0kL8GUhh73FNvOSm",
+                "id": "3Z6ziU0kL8GUhh73FNvOSm",
+                "images": [],
+                "name": "Barry Manilow (Karaoke)",
+                "popularity": 1,
+                "type": "artist",
+                "uri": "spotify:artist:3Z6ziU0kL8GUhh73FNvOSm"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/47tN7Ui0YPzXKb3kmikGeo"
+                },
+                "followers": {
+                    "href": null,
+                    "total": 11
+                },
+                "genres": [],
+                "href": "https://api.spotify.com/v1/artists/47tN7Ui0YPzXKb3kmikGeo",
+                "id": "47tN7Ui0YPzXKb3kmikGeo",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/022e7fba03500506689d80e9472468ae56c3794d",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://i.scdn.co/image/34ca1d7bd40d357ac5091f81cdadbf487c3a7d79",
+                        "width": 300
+                    },
+                    {
+                        "height": 64,
+                        "url": "https://i.scdn.co/image/bc5959e833a2ff8789a009eaa05f2a57b1d1ce77",
+                        "width": 64
+                    }
+                ],
+                "name": "Various Artists - Barry Manilow Tribute",
+                "popularity": 2,
+                "type": "artist",
+                "uri": "spotify:artist:47tN7Ui0YPzXKb3kmikGeo"
+            }
+        ],
+        "limit": 20,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total": 6
+    }
+}
