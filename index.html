@@ -15,15 +15,8 @@
             margin: 0;
         }
 
-        #app {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            flex: 1;
-            display: flex;
-            flex-direction: column;
+        .container {
+            margin: 0 auto;
         }
 
         .header {
@@ -50,10 +43,12 @@
             display: flex;
             flex-direction: row;
             width: 50%;
+            max-width: 50%;
         }
 
         .artist-detail.detail {
-            width: 100%
+            width: 100%;
+            max-width: 100%;
         }
 
         .artist-detail .back-arrow {
@@ -89,15 +84,12 @@
         @media screen and (min-width: 1000px) {
             .artist-detail {
                 width: calc(100% / 6);
+                max-width: 100%;
             }
         }
 
-
-
-
-
         .artist .name {
-            max-width: 150px;
+            height: 60px;
         }
     </style>
 </head>
