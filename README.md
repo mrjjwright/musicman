@@ -69,6 +69,3 @@ I then notice there is no indicator for "no results".  I add that.
 I then notice there are no loading indicators but I don't have time to add them and have worked on this a bit too long already.  So deploy to now.sh and test it on a real iPhone.
 
 
-
-
-

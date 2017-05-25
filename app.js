@@ -8,7 +8,7 @@ var model = mobx.observable({
   selectedArtist: null,
   selectedArtistTracks: [],
   get viewState() {
-    return this.isShowingDetail ? "detail" : "grid";
+    return this.isShowingDetail ? " detail" : " grid";
   },
   get currentView() {
     return this.isShowingDetail ? ArtistDetail : Grid;
@@ -70,8 +70,6 @@ var Artist = mobxReact.observer(
       var imageURL = artist.images && artist.images.length > 0
         ? artist.images[0].url
         : "http://d30j0ipo6imng1.cloudfront.net/static/images/features/listen/album-placeholder.f97c23852f00.png";
-      var className = "artist";
-      if (this.props.viewState) className += this.props.viewState;
       return h(
         "div",
         {
@@ -93,10 +91,13 @@ var ArtistDetail = mobxReact.observer(
   React.createClass({
     render: function() {
       var artist = this.props.artist;
+      var className = "artist-detail";
+      if (model.viewState) className += model.viewState;
+
       return h(
         "div",
         {
-          className: "artist-detail"
+          className: className
         },
         [
           h(
