@@ -33,7 +33,7 @@ var model = mobx.observable({
           self.foundArtists = res.artists.items;
         } else self.foundArtists = [];
       });
-  }, 500),
+  }, 200),
   getTracks: function() {
     // Gets the tracks for the currently selected user in Australia
     var artistId = this.selectedArtist.id;
