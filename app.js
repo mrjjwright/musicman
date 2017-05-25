@@ -145,7 +145,7 @@ var Grid = mobxReact.observer(
 var App = mobxReact.observer(
   React.createClass({
     render: function() {
-      return h("div", null, [
+      return h("div", { className: "container" }, [
         h(
           "div",
           { className: "header" },
